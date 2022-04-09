@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="profile_barrier">20dp</dimen>
+    <dimen name="profile_name_margin_top">20dp</dimen>
+    <dimen name="profile_name_text_size">24sp</dimen>
+    <dimen name="profile_birth_date_header_top_margin">24dp</dimen>
+    <dimen name="profile_margin_between_info_headers">24dp</dimen>
+    <dimen name="profile_divider_margin_top">24dp</dimen>
+    <dimen name="profile_divider_height">1dp</dimen>
+    <dimen name="profile_friends_header_margin_top">20dp</dimen>
+    <dimen name="profile_friend_image_size">48dp</dimen>
+    <dimen name="profile_first_friend_top_margin">16dp</dimen>
+    <dimen name="profile_friends_left_margin">16dp</dimen>
+    <dimen name="profile_margin_between_friends_photos">16dp</dimen>
+    <dimen name="profile_bottom_divider_top_margin">20dp</dimen>
+    <dimen name="profile_logout_button_top_margin">20dp</dimen>
+    <dimen name="profile_logout_button_width">166dp</dimen>
+    <dimen name="profile_logout_button_height">36dp</dimen>
+    <dimen name="profile_switch_top_margin">28dp</dimen>
+    <dimen name="profile_switch_end_margin">26dp</dimen>
+    <dimen name="profile_edit_button_width">18dp</dimen>
+    <dimen name="profile_edit_button_margin_end">22dp</dimen>
+    <dimen name="splash_loader_margin_top">83dp</dimen>
+    <dimen name="splash_logo_height">77dp</dimen>
+    <dimen name="splash_progress_bar_margin_from_logo">83dp</dimen>
+    <dimen name="splash_loading_text_margin_top">20dp</dimen>
+    <dimen name="splash_loading_text_size">14sp</dimen>
+    <dimen name="splash_simbirsoft_logo_from_loading_text_margin">124dp</dimen>
+    <dimen name="profile_image_dialog_width">310dp</dimen>
+    <dimen name="profile_image_dialog_item_height">73dp</dimen>
+    <dimen name="profile_image_dialog_icon_width">72dp</dimen>
+    <dimen name="help_description_text_height">58dp</dimen>
+    <dimen name="search_view_margin">8dp</dimen>
+    <dimen name="search_result_description_margin">20dp</dimen>
+    <dimen name="search_result_recycler_padding">20dp</dimen>
+    <dimen name="help_image_padding_start_end">24dp</dimen>
+    <dimen name="help_image_padding_top">12dp</dimen>
+    <dimen name="help_text_height">36dp</dimen>
+    <dimen name="help_grid_margin">8dp</dimen>
+    <dimen name="search_result_item_height">54dp</dimen>
+    <dimen name="search_result_margin_end">8dp</dimen>
+
+    <dimen name="toolbar_margin_right">24dp</dimen>
+    <dimen name="event_help_buttons_width">58dp</dimen>
+    <dimen name="event_help_buttons_margin_top">40dp</dimen>
+    <dimen name="event_help_buttons_icon_margin_bottom">7dp</dimen>
+    <dimen name="event_start_page_margin">16dp</dimen>
+    <dimen name="event_calendar_img_to_header_margin">10dp</dimen>
+    <dimen name="event_organization_info_to_date_text_margin">11dp</dimen>
+    <dimen name="event_margin_from_icons_to_text">10dp</dimen>
+    <dimen name="event_margin_between_images">10dp</dimen>
+    <dimen name="event_main_barrier_width">20dp</dimen>
+    <dimen name="event_margin_between_icon_text_fields">15dp</dimen>
+    <dimen name="event_margin_from_images_block">20dp</dimen>
+    <dimen name="event_margin_from_followers_block">30dp</dimen>
+    <dimen name="event_follower_icon_width">36dp</dimen>
+    <dimen name="event_title_text_size">21sp</dimen>
+    <dimen name="event_date_text_size">12sp</dimen>
+    <dimen name="event_followers_text_size">14sp</dimen>
+    <dimen name="event_icon_height_difference_from_text">-5dp</dimen>
+    <dimen name="event_margin_before_text_us_text">6dp</dimen>
+    <dimen name="followers_block_height">76dp</dimen>
+
+    <dimen name="help_filter_description_margin_top">20dp</dimen>
+    <dimen name="help_filter_description_margin_left">20dp</dimen>
+    <dimen name="help_filter_card_switch_margin_end">16dp</dimen>
+    <dimen name="help_filter_card_switch_text_size">16sp</dimen>
+
+    <dimen name="event_card_date_button_height">32dp</dimen>
+    <dimen name="event_card_date_margin_top">16dp</dimen>
+    <dimen name="event_card_description_margin_start">26dp</dimen>
+    <dimen name="event_card_description_margin_top">10dp</dimen>
+    <dimen name="event_card_decor_margin_top">8dp</dimen>
+    <dimen name="event_card_title_margin_start">38dp</dimen>
+    <dimen name="event_card_title_margin_top">-14dp</dimen>
+    <dimen name="event_card_title_text_size">21sp</dimen>
+    <dimen name="event_card_margins">8dp</dimen>
+    <dimen name="event_card_date_text_size">12sp</dimen>
+
+    <dimen name="auth_description_margin_top">40dp</dimen>
+    <dimen name="auth_logo_margin_top">20dp</dimen>
+    <dimen name="auth_first_logo_margin_start">80dp</dimen>
+    <dimen name="auth_logo_margin_start">40dp</dimen>
+    <dimen name="auth_field_name_margin_top">20dp</dimen>
+    <dimen name="auth_field_name_margin_start">20dp</dimen>
+    <dimen name="auth_field_name_text_size">12sp</dimen>
+    <dimen name="auth_login_button_height">44dp</dimen>
+
+    <dimen name="events_empty_search_img_margin_top">53dp</dimen>
+    <dimen name="events_empty_search_info_margin_top">37dp</dimen>
+    <dimen name="events_empty_search_info_margin_start">57dp</dimen>
+
+    <dimen name="help_dialog_title_margin_start">26dp</dimen>
+    <dimen name="help_dialog_title_margin_top">26dp</dimen>
+    <dimen name="help_dialog_subtitle_margin_top">12dp</dimen>
+    <dimen name="help_dialog_money_option_width">68dp</dimen>
+    <dimen name="help_dialog_money_option_height">36dp</dimen>
+    <dimen name="help_dialog_money_options_margin_start">30dp</dimen>
+    <dimen name="help_dialog_money_options_margin_top">10dp</dimen>
+    <dimen name="help_dialog_money_input_money_text_margin_top">20dp</dimen>
+    <dimen name="help_dialog_money_edit_text_margin_start">20dp</dimen>
+    <dimen name="help_dialog_buttons_height">36dp</dimen>
+    <dimen name="help_dialog_buttons_margin_end">8dp</dimen>
+    <dimen name="help_dialog_buttons_margin_bottom">8dp</dimen>
+    <dimen name="help_dialog_buttons_margin_top">20dp</dimen>
+    
+</resources>

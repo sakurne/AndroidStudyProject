@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loaderView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/splash_logo_height"
+        app:layout_constraintEnd_toEndOf="@+id/loaderView"
+        app:layout_constraintStart_toStartOf="@+id/loaderView"
+        app:layout_constraintTop_toTopOf="@+id/loaderView"
+        app:srcCompat="@drawable/icon_logo" />
+
+    <ProgressBar
+        android:id="@+id/progress_loader"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/splash_loader_margin_top"
+        android:indeterminateTint="@color/turtle_green"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/loaderView"
+        app:layout_constraintStart_toStartOf="@+id/loaderView"
+        app:layout_constraintTop_toBottomOf="@+id/logoImage" />
+
+    <TextView
+        android:id="@+id/splash_screen_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/splash_loading_text_margin_top"
+        android:textSize="@dimen/splash_loading_text_size"
+        android:text="@string/loading"
+        android:textAlignment="center"
+        android:textColor="@color/black_70"
+        app:layout_constraintEnd_toEndOf="@+id/loaderView"
+        app:layout_constraintStart_toStartOf="@+id/loaderView"
+        app:layout_constraintTop_toBottomOf="@+id/progress_loader" />
+
+    <ImageView
+        android:id="@+id/simbirsoft_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/splash_simbirsoft_logo_from_loading_text_margin"
+        app:layout_constraintEnd_toEndOf="@+id/loaderView"
+        app:layout_constraintStart_toStartOf="@+id/loaderView"
+        app:layout_constraintTop_toBottomOf="@+id/splash_screen_text"
+        app:srcCompat="@drawable/logo_mss" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

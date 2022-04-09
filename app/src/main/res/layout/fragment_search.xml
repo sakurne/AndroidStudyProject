@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:theme="@style/Theme.MyApplication"
+    tools:context=".presentation.view.event.SearchFragment">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/leaf"
+        app:popupTheme="@style/Theme.MyApplication"
+        app:titleTextAppearance="@style/TextStyle2"
+        app:titleTextColor="@color/white"
+        app:contentInsetStart="0dp">
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:queryHint="@string/search_hint"
+            android:iconifiedByDefault="false"
+            style="@android:style/Widget.Material.SearchView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/search_view_margin"
+            android:layout_marginTop="@dimen/search_view_margin"
+            android:layout_marginEnd="@dimen/search_view_margin"
+            android:background="@color/white"
+            android:gravity="center" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/searchTabLayout"
+        app:tabTextAppearance="@style/TextStyle7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/leaf"
+        app:tabIndicatorColor="@color/macaroni_and_cheese"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@color/white_70">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</com.google.android.material.appbar.AppBarLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/eventLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/event_card_margins"
+    android:layout_marginTop="@dimen/event_card_margins"
+    android:layout_marginRight="@dimen/event_card_margins"
+    android:background="@color/white">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/event_card_date_button_height"
+        android:layout_marginTop="@dimen/event_card_date_margin_top"
+        android:background="@color/bright_leaf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newsInfoTextView" />
+
+    <TextView
+        android:id="@+id/newsDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:textSize="@dimen/event_card_date_text_size"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <TextView
+        android:id="@+id/newsInfoTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/event_card_description_margin_start"
+        android:layout_marginTop="@dimen/event_card_description_margin_top"
+        android:layout_marginEnd="@dimen/event_card_description_margin_start"
+        android:textAlignment="center"
+        android:textColor="@color/black_70"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/decorImageView" />
+
+    <ImageView
+        android:id="@+id/decorImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/event_card_decor_margin_top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newsTitleTextView"
+        app:srcCompat="@drawable/ic_decor" />
+
+    <ImageView
+        android:id="@+id/newsImageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@id/newsImageView"
+        app:layout_constraintEnd_toEndOf="@id/newsImageView"
+        app:layout_constraintStart_toStartOf="@id/newsImageView"
+        app:layout_constraintTop_toTopOf="@id/newsImageView"
+        app:srcCompat="@drawable/fade" />
+
+    <TextView
+        android:id="@+id/newsTitleTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/event_card_title_margin_start"
+        android:layout_marginTop="@dimen/event_card_title_margin_top"
+        android:layout_marginEnd="@dimen/event_card_title_margin_start"
+        android:fontFamily="@font/officina_sans_extra_bold"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextStyle6"
+        android:textColor="@color/blue_grey"
+        android:textSize="@dimen/event_card_title_text_size"
+        app:layout_constraintEnd_toEndOf="@+id/newsImageView"
+        app:layout_constraintStart_toStartOf="@+id/newsImageView"
+        app:layout_constraintTop_toBottomOf="@+id/newsImageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

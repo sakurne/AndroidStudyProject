@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="26dp"
+        android:text="Спасибо за решение помочь!"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextStylePopupHeader"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Выберите размер пожертвования"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <View
+        android:id="@+id/rectangle4"
+        android:layout_width="68dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/shape_rect_money_help"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@+id/rectangle3"
+        app:layout_constraintTop_toTopOf="@+id/rectangle3" />
+
+    <View
+        android:id="@+id/rectangle2"
+        android:layout_width="68dp"
+        android:layout_height="36dp"
+        android:background="@drawable/shape_rect_money_help_highlighted"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle1"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle3"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@+id/rectangle1"
+        app:layout_constraintTop_toTopOf="@+id/rectangle1" />
+
+    <View
+        android:id="@+id/rectangle1"
+        android:layout_width="68dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_rect_money_help"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle2"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <View
+        android:id="@+id/rectangle3"
+        android:layout_width="68dp"
+        android:layout_height="36dp"
+        android:background="@drawable/shape_rect_money_help"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle2"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle4"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@+id/rectangle2"
+        app:layout_constraintTop_toTopOf="@+id/rectangle2" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="rectangle2,rectangle3,rectangle4,rectangle1"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="или введите нужную сумму"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle1" />
+
+    <EditText
+        android:id="@+id/editTextTextSum"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/black_38"
+        android:ems="10"
+        android:hint="Введите сумму"
+        android:inputType="number"
+        android:maxLength="7"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextStylePopupPlaceholder"
+        android:textColor="@color/black_38"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/buttonCancel"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/white"
+        android:text="Отмена"
+        android:textColor="@color/leaf"
+        app:layout_constraintEnd_toStartOf="@+id/buttonApprove"
+        app:layout_constraintTop_toTopOf="@+id/buttonApprove" />
+
+    <Button
+        android:id="@+id/buttonApprove"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/white"
+        android:text="Перевести"
+        android:textColor="@color/leaf"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextSum" />
+
+    <TextView
+        android:id="@+id/moneyText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="100 ₽"
+        android:textColor="@color/leaf"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle1"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle2"
+        app:layout_constraintStart_toStartOf="@+id/rectangle1"
+        app:layout_constraintTop_toTopOf="@+id/rectangle1" />
+
+    <TextView
+        android:id="@+id/moneyText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="1000 ₽"
+        android:textAlignment="center"
+        android:textColor="@color/leaf"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle3"
+        app:layout_constraintEnd_toStartOf="@+id/rectangle4"
+        app:layout_constraintStart_toEndOf="@+id/rectangle2"
+        app:layout_constraintTop_toTopOf="@+id/rectangle3" />
+
+    <TextView
+        android:id="@+id/moneyText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="2000 ₽"
+        android:textAlignment="center"
+        android:textColor="@color/leaf"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle4"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle4"
+        app:layout_constraintStart_toEndOf="@+id/rectangle3"
+        app:layout_constraintTop_toTopOf="@+id/rectangle4" />
+
+    <TextView
+        android:id="@+id/moneyText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="500 ₽"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle2"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle2"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="@+id/rectangle2"
+        app:layout_constraintTop_toTopOf="@+id/rectangle2"
+        app:layout_constraintVertical_bias="0.47" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

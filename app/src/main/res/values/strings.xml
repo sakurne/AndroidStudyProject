@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Хочу помочь</string>
+    <string name="title_name">Хочу помочь</string>
+    <string name="loading">Загрузка…</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_news">Новости</string>
+    <string name="title_search">Поиск</string>
+    <string name="title_help">Помочь</string>
+    <string name="title_history">История</string>
+    <string name="title_profile">Профиль</string>
+    <string name="profile_name">Константинов Денис</string>
+    <string name="birth_date_header">Дата рождения</string>
+    <string name="birth_date_value">01 февраля 1980</string>
+    <string name="profession_header">Сфера деятельности</string>
+    <string name="profession_value">Хирургия, травмотология</string>
+    <string name="get_push_notifications">Получать push-уведомления</string>
+    <string name="your_friends_header">Ваши друзья</string>
+    <string name="friend_3">Дмитрий Валерьевич</string>
+    <string name="friend_2">Евгений Александров</string>
+    <string name="friend_1">Виктор Кузнецов</string>
+    <string name="logout_button">Выйти из аккаунта</string>
+    <string name="upload_photo_profile">Выбрать фото</string>
+    <string name="make_photo_profile">Сделать снимок</string>
+    <string name="delete_photo_profile">Удалить</string>
+    <string name="help_title">Помочь</string>
+    <string name="help_info">Выберите категорию помощи</string>
+
+    <string name="help_item_kids">Дети</string>
+    <string name="help_item_adults">Взрослые</string>
+    <string name="help_item_elderly">Пожилые</string>
+    <string name="help_item_animals">Животные</string>
+    <string name="help_item_events">Мероприятия</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="search_result_text">Ключевые слова: %1$s, %2$s\nРезультаты поиска: %3$d мероприятий</string>
+    <string name="search_tab_1">По мероприятиям</string>
+    <string name="search_tab_2">По НКО</string>
+    <string name="search_hint">Введите название организации</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="event_help_money">Помочь деньгами</string>
+    <string name="event_help_prof">Проф. помощь</string>
+    <string name="event_help_volunteer">Стать волонтером</string>
+    <string name="event_help_items">Помочь вещами</string>
+    <string name="event_have_questions">У вас есть вопросы?</string>
+    <string name="event_text_us">Напишите нам</string>
+    <string name="event_go_to_organization_website">Перейти на сайт организации</string>
+
+    <string name="filter">Фильтр</string>
+    <string name="help_filter_description">Как вы хотите помочь?</string>
+
+    <string name="permission_denied_message">Невозможно выполнить действие без прав доступа</string>
+
+    <string name="auth_description">Для участия в мероприятиях войдите\nв приложение через социальые сети</string>
+    <string name="auth_description1">Или авторизуйтесь через приложение</string>
+    <string name="auth_email_field">E-mail</string>
+    <string name="auth_password_field">Пароль</string>
+    <string name="auth_sign_in_button">Войти</string>
+    <string name="auth_forgot_password">Забыли пароль?</string>
+    <string name="auth_registration">Регистрация</string>
+
+    <string name="events_empty_search">Напишите в строке поиска название мероприятия или ключевые слова.</string>
+</resources>
