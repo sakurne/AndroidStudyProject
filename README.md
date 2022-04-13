@@ -1,7 +1,5 @@
 Приложение для просмотра, поиска благотворительных событий
 
-![Снимок экрана 2022-04-13 в 07 33 30](https://user-images.githubusercontent.com/52457607/163100835-1eddf9e8-07ea-48ae-8a35-3356cedbaf06.png)
-
 ![Снимок экрана 2022-04-13 в 07 35 52](https://user-images.githubusercontent.com/52457607/163101062-ebcbb6b5-a858-4037-8b31-aaf5ef2c9fa8.png)
 
 ![Снимок экрана 2022-04-13 в 07 37 36](https://user-images.githubusercontent.com/52457607/163101275-3ce1ae5d-5513-4606-bdfd-b469d07c17d5.png)
@@ -15,4 +13,8 @@
 
 На скриншотах ниже реализована только верстка
 
+![Снимок экрана 2022-04-13 в 07 33 30](https://user-images.githubusercontent.com/52457607/163100835-1eddf9e8-07ea-48ae-8a35-3356cedbaf06.png)
+
 ![Снимок экрана 2022-04-13 в 07 36 31](https://user-images.githubusercontent.com/52457607/163101116-ca06cebb-85a9-461b-ada4-0ce5fb218b05.png)
+
+![Снимок экрана 2022-04-13 в 07 44 17](https://user-images.githubusercontent.com/52457607/163101960-3d5dfb44-7289-4dd7-96b9-ef9b79bdcd11.png)
