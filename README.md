@@ -6,9 +6,9 @@
 
 ![Снимок экрана 2022-04-13 в 07 38 51](https://user-images.githubusercontent.com/52457607/163101630-6166f5e3-309d-483f-89d2-6e1cab409819.png)
 
-![Снимок экрана 2022-04-13 в 07 41 43](https://user-images.githubusercontent.com/52457607/163101718-7e91408c-98ea-429f-a1d1-a04900b54c15.png)
-
 ![Снимок экрана 2022-04-13 в 07 42 19](https://user-images.githubusercontent.com/52457607/163101782-67cde774-3477-4d9c-a026-c27e751f97a1.png)
+
+![Снимок экрана 2022-04-13 в 07 41 43](https://user-images.githubusercontent.com/52457607/163101718-7e91408c-98ea-429f-a1d1-a04900b54c15.png)
 
 
 На скриншотах ниже реализована только верстка
